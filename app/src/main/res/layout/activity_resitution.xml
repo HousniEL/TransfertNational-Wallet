@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.Bank_wallet.Resitution">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/ref"
+        android:layout_width="238dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginBottom="20dp"
+        android:fontFamily="@font/fontres"
+        android:textSize="20dp" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:id="@+id/rechercheref"
+
+        android:layout_height="wrap_content"
+        android:text="Recherce"/>
+</LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/fname1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/fontres"
+                android:text="Prenom:"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/fname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/fontres"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/lname1"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:fontFamily="@font/fontres"
+                android:text="Nom:"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/lname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/fontres"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/idcar1"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:fontFamily="@font/fontres"
+                android:text="Numero de Telephone:"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/idcar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/fontres"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/price1"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:fontFamily="@font/fontres"
+                android:text="Montant:"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/fontres"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/motif1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/fontres"
+                android:text="Motif:"
+                android:textSize="20dp" />
+
+            <EditText
+                android:id="@+id/motif3"
+                android:layout_width="277dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:fontFamily="@font/fontres"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/restituerRR"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="125dp"
+                android:layout_marginTop="60dp"
+                android:fontFamily="@font/fontres"
+                android:text="restituer" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+        <!-- TODO: Update blank fragment layout -->
+
+
+    </FrameLayout>
+
